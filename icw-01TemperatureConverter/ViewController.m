@@ -38,15 +38,15 @@
     
     if(self.sgmSelector.selectedSegmentIndex == 0){
         self.baseLbl.textAlignment = NSTextAlignmentLeft;
-        self.firstConversionLbl.text = @"Celsius";
-        self.secondConversionLbl.text = @"Kelvin";
+        self.firstConversionLbl.text = @"Fahrenheit to Celsius";
+        self.secondConversionLbl.text = @"Fahrenheit to Kelvin";
         self.slider.maximumValue = 212;
         self.slider.minimumValue = 32;
     }
     if(self.sgmSelector.selectedSegmentIndex == 1){
         self.baseLbl.textAlignment = NSTextAlignmentCenter;
-        self.firstConversionLbl.text = @"Fahrenheit";
-        self.secondConversionLbl.text = @"Kelvin";
+        self.firstConversionLbl.text = @"Celsius to Fahrenheit";
+        self.secondConversionLbl.text = @"Celsius to Kelvin";
         self.slider.maximumValue = 100;
         self.slider.minimumValue = 0;
         
@@ -54,8 +54,8 @@
     }
     if(self.sgmSelector.selectedSegmentIndex == 2){
         self.baseLbl.textAlignment = NSTextAlignmentRight;
-        self.firstConversionLbl.text = @"Fahrenheit";
-        self.secondConversionLbl.text = @"Celsius";
+        self.firstConversionLbl.text = @"Kelvin to Fahrenheit";
+        self.secondConversionLbl.text = @"Kelvin to Celsius";
         self.slider.maximumValue = 373.2;
         self.slider.minimumValue = 273.15;
 
